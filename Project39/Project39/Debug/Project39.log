@@ -1,6 +1,7 @@
 ﻿  Load.cpp
-  Tube.cpp
+  flat.cpp
   Generating Code...
+C:\Users\USER\source\repos\Project39\Project39\shipping_item.cpp(64): warning C4717: 'ShippingItem::set_delivered': recursive on all control paths, function will cause runtime stack overflow
 shipping_item.obj : error LNK2005: "public: __thiscall ShippingItem::ShippingItem(struct Address,double,double)" (??0ShippingItem@@QAE@UAddress@@NN@Z) already defined in flat.obj
 shipping_item.obj : error LNK2005: "public: __thiscall ShippingItem::ShippingItem(void)" (??0ShippingItem@@QAE@XZ) already defined in flat.obj
 shipping_item.obj : error LNK2005: "public: __thiscall ShippingItem::~ShippingItem(void)" (??1ShippingItem@@QAE@XZ) already defined in flat.obj

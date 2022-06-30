@@ -1,12 +1,17 @@
 #pragma once
 #include"shipping_item.h"
 #include<vector>
+#include<fstream>
+#include<iostream>
+#include<string>
 class Load
 {
 private:
 	vector<ShippingItem>* v = new vector<ShippingItem>;
+
 	int current_index_item, count;
 	double total_weight, total_volume;
+	ShippingItem *storing_obj;
 public:
 	Load();
 	~Load();
